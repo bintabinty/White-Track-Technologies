@@ -1,0 +1,7 @@
+print("Hello World")
+x=int(5.6)
+print(x)
+y=float(10)
+print(y)
+z=str(100)
+print(z)
