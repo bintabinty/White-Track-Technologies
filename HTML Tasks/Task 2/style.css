@@ -1,0 +1,65 @@
+/* BORDER */
+div {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+
+.dotted {
+    border: 3px dotted blue;
+}
+
+.solid {
+    border: 3px solid yellow;
+}
+
+.dashed {
+    border: 3px dashed blue;
+}
+
+.double {
+    border: 6px double blue;
+}
+
+/* HEADINGS */
+h1 { color: red; }
+h2 { color: green; }
+h3 { color: blue; }
+h4 { color: purple; }
+h5 { color: orange; }
+h6 { color: brown; }
+
+/* PARAGRAPH */
+.para1 {
+    background-color: lightblue;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.para2 {
+    background-color: yellow;
+    border: 2px double black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FIRST LETTER */
+.first-letter {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* BOX MODEL */
+.outer {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.inner {
+    border: 2px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+}
+

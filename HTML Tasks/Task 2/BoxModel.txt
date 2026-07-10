@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boxmodel Examplet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- BORDER -->
+<p>Border</p>
+<div class="dotted">blue</div>
+<div class="solid"></div>
+<div class="dashed"></div>
+<div class="double"></div>
+<br>
+<!-- second session -->
+<h1> This is h1 heading</h1>
+<h2>This is h2 heading</h2>
+<h3>This is h3 heading</h3>
+<h4>This is h4 heading</h4>
+<h5>This is h5 heading</h5>
+<h6>This is h6 heading</h6>
+<br>
+
+<!-- PARAGRAPH -->
+<p class="para1">paragraph (background blue)</p>
+<p class="para2">
+    <span class="first-letter">h1</span> paragraph (yellow)
+</p>
+<br>
+
+<!-- BOX MODEL -->
+<div class="outer">
+    20px
+    <div class="inner">
+        10px
+    </div>
+</div>
+
+<br>
+
+<!-- INLINE ELEMENT -->
+<p>
+    <span class="blue">blue</span> 
+    <span class="yellow">yellow</span>
+</p>
+
+</body>
+</html>

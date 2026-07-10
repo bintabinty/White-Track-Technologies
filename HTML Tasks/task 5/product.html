@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        /* HEADER */
+        #header {
+            background-color: black;
+            color: blue;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* CONTAINER */
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* IMAGE */
+        .product-img {
+            width: 250px;     /* FIXED SIZE */
+            height: auto;
+            display: block;
+            border: 2px solid black;
+        }
+
+        /* TEXT */
+        .price {
+            color: green;
+            font-size: 22px;
+        }
+
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+
+        /* TABLE (SPECIFICATIONS) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 2px solid black;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        td, th {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div id="header">
+    <h1>My Product Store</h1>
+</div>
+
+<div class="container">
+ <table>
+ <tr>
+ <td>
+ <img src="watch.jpg" class="product-img"></td>
+<td>
+<h2>Smart Watch</h2>
+<p>
+ This is a <span style="color:red;">premium</span> smart watch.</p>
+ <p>
+ This smartwatch includes heart rate monitoring, sleep tracking, and waterproof design.
+</p>
+<p class="price">₹4,999</p>
+ <button class="btn">Buy Now</button>
+ </td>
+ </tr>
+</table>
+<h3>Specifications</h3>
+<table>
+ <tr>
+ <th>Feature</th>
+ <th>Details</th>
+ </tr>
+<tr>
+<td>Display</td>
+<td>AMOLED</td>
+</tr>
+ <tr>
+ <td>Battery</td>
+ <td>7 Days</td>
+ </tr>
+ <tr>
+ <td>Waterproof</td>
+  <td>Yes</td>
+   </tr>
+<tr>
+ <td>Connectivity</td>
+ <td>Bluetooth</td>
+ </tr>
+</table>
+</div>
+</body>
+</html>
